@@ -35,7 +35,7 @@ namespace Yorozu.EditorTool.ColorFolder
                     CreateFolderTexture();
                 File.WriteAllBytes(filePath, tempTexture.EncodeToPNG());
             }
-            var texture = new Texture2D(0, 0, TextureFormat.ARGB32, true);
+            var texture = new Texture2D(1, 1, TextureFormat.ARGB32, true);
             texture.LoadImage(File.ReadAllBytes(filePath));
             
             return texture;
