@@ -4,6 +4,12 @@ Unity の ProjectWindow 上で特定のフォルダの色を変えたりテク�
 
 <img src="https://github.com/yayorozu/ImageUploader/blob/master/ColorFolder/Top.png" width="700">
 
+# 元のリポジトリと変更点
+元リポジトリ様：
+https://github.com/yayorozu/UnityEditorColorFolder
+
+Unity6でエラーが発生したのを修正致しました。
+
 # 使い方
 
 `/Tools/ColorFoler/CreateFolderSetting` より設定ファイルを作成できるのでお好みの場所に作成する
@@ -38,6 +44,6 @@ Unity の ProjectWindow 上で特定のフォルダの色を変えたりテク�
 # PackageManager 
 
 Add Package from git Url より
-`https://github.com/yayorozu/UnityEditorColorFolder.git`
+`https://github.com/purakavi-sama/UnityEditorColorFolder.git`
 を指定することで Package の追加ができます
 
